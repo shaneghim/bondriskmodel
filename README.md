@@ -59,3 +59,7 @@ Although duration works well for small rate moves and convexity fixes most of it
 **Limitations**
 
 The bonds are hypothetical par Treasuries (no credit risk), and the scenario shocks are instant, which is a standard stress test rather than a realistic forecast. In the backtest, I estimated yields for maturities FRED doesn’t publish (like 9 years) by drawing a straight line between the nearest ones, so those prices are close estimates. The results also cover only one portfolio and one backtest year of 2022, which saw one of the fastest rate increases in decades.
+
+**What's next**
+
+Add the price change from each bond getting a year closer to maturity, and see how close the adjusted estimate gets to the actual. We can also include include corporate bonds, which pay a spread above Treasuries for the risk of default, and test what happens when both rates and spreads rise. We can also use a hypothetical set of liability cash flows to match the two cash flows to see how well they are matched.
