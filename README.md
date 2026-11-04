@@ -14,6 +14,8 @@ I retrieved the daily Treasury constant-maturity yields from [FRED](https://fred
 
 I created six hypothetical Treasuries as of 12/31/2021, maturing in 1, 2, 3, 5, 10, and 30 years, each with \$1,000,000 face value. I then set each coupon to that day's market yield, so every bond starts at par. I priced the 10-year by hand to check Excel's PRICE and MDURATION results, and calculated convexity by repricing each bond at ±1 basis point (bp). The portfolio's modified duration was found to be 7.13.
 
+\*Throughout this project, “duration” means modified duration.
+
 <ins>Scenarios</ins>
 
 Parallel shifts of ±50, ±100, and ±200 bp, plus a steepener (for when long rates rise more) and a bear flattener (for when short rates rise more). I compared the actual price change with the duration estimate and the duration + convexity estimate for each scenario, and floored yields at 0%.
