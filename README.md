@@ -1,3 +1,5 @@
+<a href="https://shaneghim.github.io/" style="display:inline-block;padding:4px 12px;border:1px solid #d6dbe1;border-radius:999px;font-family:Helvetica,Arial,sans-serif;font-size:0.85rem;color:#1f4e79;text-decoration:none;background:#fff;">&larr; All projects</a>
+
 # Bond Portfolio Interest Rate Risk in Excel: Duration vs. Convexity
 
 This Excel project measures how much a Treasury bond portfolio's value changes when interest rates move, and how well duration and convexity predict that change. I tested nine rate scenarios, then backtested the portfolio against 2022, when rates rose sharply.
