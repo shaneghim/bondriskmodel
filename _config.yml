@@ -1,0 +1,7 @@
+title: "Bond Portfolio Interest Rate Risk in Excel: Duration vs. Convexity"
+theme: jekyll-theme-primer
+defaults:
+  - scope:
+      path: ""
+    values:
+      title: "Bond Portfolio Interest Rate Risk in Excel: Duration vs. Convexity"
